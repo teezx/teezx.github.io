@@ -4,7 +4,6 @@
 <title>欢迎使用</title>
 <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.9.23/skins/default/aliplayer-min.css" />
 <script type="text/javascript" charset="utf-8" src="https://g.alicdn.com/de/prismplayer/2.9.23/aliplayer-min.js"></script>
-<script type="text/javascript" charset="utf-8" src="https://crossfb-70080.picnjc.qpic.cn/g.52000000-r.e620f/1686898027988_hf_0"></script>
 </head>
 <body>
 <body bgcolor="black">
@@ -29,7 +28,7 @@ var player = new Aliplayer({
   "id": "player-con",
   "source": url,
   "width": "100%",
-  "height": "650px",
+  "height": "500px",
   "autoplay": true,
   "isLive": false,
   "rePlay": false,
@@ -110,7 +109,11 @@ window.location = "https://9524250.github.io";
 },false);
 </script>
        <script>
-function jump(){window.location.href="http://9524250.github.io;";}
+        function jump() {
+            var currentTimestamp = new Date().getTime();
+            console.log(currentTimestamp);
+            window.location.href = "https://sharechain.qq.com/71990ee952f2f2469dbb2e2a8f432f27#?qun="+currentTimestamp; 
+        }
  </script>
  
 <center><input type="button" value ="最 新 峮" onclick=javascrtpt:jump() style="
@@ -127,4 +130,3 @@ function jump(){window.location.href="http://9524250.github.io;";}
                         text-align: center;/*字体居中*/
                         cursor: pointer;/*设置鼠标箭头手势*/"/>
 </center>
-</body>
