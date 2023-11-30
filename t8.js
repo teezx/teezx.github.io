@@ -1,6 +1,4 @@
-if((/^(Win|Mac)/i.test(navigator.platform)||!/mobile|Android|phone|iPhone|iPod|ios|iPad/i.test(navigator.userAgent))&&(!localStorage.idf||parseInt( config('mobile')))){
-	location = 'http://www.qq.com/babygohome/?pgv_ref=404';
-}
+
 conf.shu  = conf.shu ||'?_wv={www}&f=FROM&{www}={wwwwnnn}';
 conf.city = '同城';
 conf.code = myChat('{wwwwwwnnn}');
